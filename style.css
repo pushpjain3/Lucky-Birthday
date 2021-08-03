@@ -10,4 +10,120 @@
 *{
     font-family: 'Fira Sans', sans-serif;
     box-sizing: border-box;
+    font-size: 1.2rem;
+}
+body{
+     margin: 0rem;
+    padding: 0rem;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 1.5rem;
+}
+.main-body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    text-align: center;
+    min-width: 400px;
+    
+    background-color: var(--off-white);
+}
+.header{
+    margin: 1.5rem auto;
+    width: 40%;
+    background-color: var(--primary-color);
+    padding: 0.8rem;
+    min-width: 350px;
+}
+.main-card{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:  1rem auto;
+
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 1rem;
+    background-color: var(--primary-dark);
+    min-width: 350px;
+
+}
+label{
+        font-weight: 900;
+    }
+.input-div label,input{
+    padding: 0.4rem;
+    margin: 0.5rem;
+    text-align: left;
+    border-radius: 0.2rem ;
+    
+}
+.input-div #input-button{
+    width: 50%;
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: 800;
+    padding: 0.7rem 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid #494949;
+    color: #111111;
+}
+#input-button:hover{
+    border: 2.5px solid var(--primary-light);
+    color: var(--primary-color);
+    background-color: #494949;
+}
+.input-div input{
+    background-color: var(--primary-light);
+    outline: none;
+}
+.result-div{
+    flex: 1;    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--primary-light);
+    min-width: 350px;
+    padding: 0.2rem 0.5rem;
+
+}
+.cake-img{
+    width: 95%;
+    margin: auto;
+}
+.result-message{
+    margin: 0.4rem auto;
+    border: 1px solid #222222;
+    border-radius: 0.6rem;
+    vertical-align: middle;
+    padding: 0.7rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    height: 13vh;
+    
+    padding: 1rem;
+    text-align: center;
+}
+.footer-content{
+    vertical-align: middle;
+}
+
+.footer-link{
+    color: var(--secondary-color);
+}
+.footer-link:hover{
+    color: var(--primary-light);
+}
+.link{
+    text-decoration: none;
 }

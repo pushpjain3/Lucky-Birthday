@@ -24,7 +24,6 @@ const luckyDateChecker = (number, date) => {
 
 const clickHandler = () => {
 	const luckynumber = inputNumber.value;
-	console.log(typeof luckynumber)
 	if (!(luckynumber==="") || !isNaN(luckynumber) ) {
 		errMsg.innerText = "";
 		const birthdate = dateProcessor(inputDate.value);

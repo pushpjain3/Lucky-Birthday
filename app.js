@@ -24,7 +24,8 @@ const luckyDateChecker = (number, date) => {
 
 const clickHandler = () => {
 	const luckynumber = inputNumber.value;
-	if (!isNaN(luckynumber)) {
+	console.log(typeof luckynumber)
+	if (!(luckynumber==="") || !isNaN(luckynumber) ) {
 		errMsg.innerText = "";
 		const birthdate = dateProcessor(inputDate.value);
 		if (luckyDateChecker(Number(luckynumber), Number(birthdate))) {
@@ -33,7 +34,7 @@ const clickHandler = () => {
 			resMsg.innerText = "Ah! You don't have a Lucky Birthday!!";
 		}
 	} else {
-		errMsg.innerText = "Please enter Lucky number in digits.";
+		errMsg.innerText = "!! Please enter Lucky number in digits !!";
 	}
 };
 

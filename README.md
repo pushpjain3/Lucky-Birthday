@@ -1,5 +1,5 @@
 # Lucky-Birthday
 ### What is this project?
->Did you know that what minions speak is an actual language? Come, let's find out what your sentences mean in the banana language.
+>Is your birthday a lucky birthday? check using this application. Enter your Birthday and your lucky number to check.
 >
 >A web app based on vanillaJS.
